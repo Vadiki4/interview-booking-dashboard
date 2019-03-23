@@ -37,7 +37,7 @@ const EmployeeStats = props => (
 					<div className="stat-item">
 						<img src={profileImageUrl} alt="profile-preview" />
 						<p>{firstName + lastName}</p>
-						<span>{hours}</span>
+						<span>{hours} hours</span>
 					</div>
 				</div>
 			));
