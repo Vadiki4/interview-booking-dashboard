@@ -1,0 +1,26 @@
+.employee-stats {
+	padding-top: 30px;
+
+	.stat-item {
+		display: flex;
+		align-items: center;
+
+		img {
+			border-radius: 50%;
+			width: 34px;
+			height: 33px;
+			vertical-align: middle;
+		}
+
+		p {
+			width: 70%;
+			padding-left: 30px;
+			color: #fff;
+		}
+
+		span {
+			width: 30%;
+			color: #72848b;
+		}
+	}
+}
